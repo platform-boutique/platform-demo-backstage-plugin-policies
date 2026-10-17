@@ -1,0 +1,19 @@
+site_name: "Backstage plugin - Policies"
+site_description: "Kyverno policy findings for the platform-demo portal."
+repo_url: https://github.com/platform-boutique/platform-demo-backstage-plugin-policies
+edit_uri: edit/main/docs/
+
+plugins:
+  - techdocs-core
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - "Overview": index.md
+  - "How it works": how-it-works.md
+  - "Install and configure": install.md

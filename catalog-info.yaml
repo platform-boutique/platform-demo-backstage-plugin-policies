@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: platform-demo-backstage-plugin-policies
+  title: Backstage plugin - Policies
+  description: "Kyverno findings per workload and the catalog of installed admission policies in the portal."
+  annotations:
+    github.com/project-slug: platform-boutique/platform-demo-backstage-plugin-policies
+    backstage.io/techdocs-ref: dir:.
+  tags: [backstage, plugin, kyverno, policy]
+  links:
+    - { url: "https://github.com/platform-boutique/platform-demo-backstage-plugin-policies", title: Repository, icon: github }
+spec:
+  type: backstage-plugin
+  lifecycle: experimental
+  owner: group:default/maintainers
+  system: developer-portal
+  subcomponentOf: component:default/platform-demo-backstage
+  dependsOn:
+    - resource:default/kyverno
