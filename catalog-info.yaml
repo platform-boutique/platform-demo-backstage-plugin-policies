@@ -6,10 +6,9 @@ metadata:
   description: "Kyverno findings per workload and the catalog of installed admission policies in the portal."
   annotations:
     github.com/project-slug: platform-boutique/platform-demo-backstage-plugin-policies
+    backstage.io/source-location: url:https://github.com/platform-boutique/platform-demo-backstage-plugin-policies/tree/main/
     backstage.io/techdocs-ref: dir:.
   tags: [backstage, plugin, kyverno, policy]
-  links:
-    - { url: "https://github.com/platform-boutique/platform-demo-backstage-plugin-policies", title: Repository, icon: github }
 spec:
   type: backstage-plugin
   lifecycle: experimental
